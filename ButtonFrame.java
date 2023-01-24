@@ -2,52 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 class ButtonListener implements ActionListener
 {
 	int count = 0;
@@ -58,11 +12,6 @@ class ButtonListener implements ActionListener
 	}
 }
 
-
-
-
-
-
 class ButtonCloser extends WindowAdapter
 {
     public void windowClosing(WindowEvent we)
@@ -71,12 +20,6 @@ class ButtonCloser extends WindowAdapter
 	System.exit(0);
     }
 }
-
-
-
-
-
-
 
 public class ButtonFrame extends JFrame
 {
