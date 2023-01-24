@@ -28,3 +28,5 @@ public class ButtonFrame extends JFrame
 		JFrame f = new ButtonFrame();
 	}
 }
+
+edited here
