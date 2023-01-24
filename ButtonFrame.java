@@ -58,6 +58,11 @@ class ButtonListener implements ActionListener
 	}
 }
 
+
+
+
+
+
 class ButtonCloser extends WindowAdapter
 {
     public void windowClosing(WindowEvent we)
@@ -66,6 +71,12 @@ class ButtonCloser extends WindowAdapter
 	System.exit(0);
     }
 }
+
+
+
+
+
+
 
 public class ButtonFrame extends JFrame
 {
